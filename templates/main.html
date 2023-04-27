@@ -1,0 +1,12 @@
+{% include 'header.html' ignore missing %}
+<li>
+    {% for p in pages%}
+    <h1>{{ p.name }}</h1>
+    {% endfor %}
+</li>
+<li>
+    % for d in did%}
+    <p>{{ d.name }}</p>
+    {% endfor %}
+</li>
+{% include 'footer.html' %}
